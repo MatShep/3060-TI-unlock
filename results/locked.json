@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-28",
+  "state": "locked",
+  "state_directly_read_in_windows": false,
+  "summary": {
+    "fp32_pedantic": {
+      "trial_tflops": [
+        9.225893879591398,
+        9.230057552140943,
+        9.159001693687378
+      ],
+      "median_tflops": 9.225893879591398
+    },
+    "fp16_fp32_accumulate": {
+      "trial_tflops": [
+        27.182692594045008,
+        27.304305261006125,
+        27.153445561874527
+      ],
+      "median_tflops": 27.182692594045008
+    },
+    "bf16_fp32_accumulate": {
+      "trial_tflops": [
+        27.035837624386733,
+        27.060398993830255,
+        27.053548850839217
+      ],
+      "median_tflops": 27.053548850839217
+    },
+    "tf32_fp32_accumulate": {
+      "trial_tflops": [
+        13.668836906547103,
+        13.73861910407293,
+        13.615366385129985
+      ],
+      "median_tflops": 13.668836906547103
+    },
+    "fp16_accumulate_control": {
+      "trial_tflops": [
+        54.24171341934658,
+        54.30772506299498,
+        54.39421499637128
+      ],
+      "median_tflops": 54.30772506299498
+    }
+  },
+  "telemetry_medians_including_warmup_and_checks": {
+    "fp32_pedantic": {
+      "clocks.sm": 1545.0,
+      "clocks.mem": 7001.0,
+      "power.draw": 130.565,
+      "temperature.gpu": 48.0
+    },
+    "fp16_fp32_accumulate": {
+      "clocks.sm": 1545.0,
+      "clocks.mem": 7001.0,
+      "power.draw": 81.055,
+      "temperature.gpu": 44.5
+    },
+    "bf16_fp32_accumulate": {
+      "clocks.sm": 1545.0,
+      "clocks.mem": 7001.0,
+      "power.draw": 81.515,
+      "temperature.gpu": 44.0
+    },
+    "tf32_fp32_accumulate": {
+      "clocks.sm": 1545.0,
+      "clocks.mem": 7001.0,
+      "power.draw": 80.05,
+      "temperature.gpu": 44.5
+    },
+    "fp16_accumulate_control": {
+      "clocks.sm": 1545.0,
+      "clocks.mem": 7001.0,
+      "power.draw": 102.97,
+      "temperature.gpu": 47.0
+    }
+  },
+  "peak_sampled_temperature_c": 51.0,
+  "peak_sampled_power_w": 132.91,
+  "telemetry_samples": 113,
+  "display_layout": "two monitors on RTX"
+}

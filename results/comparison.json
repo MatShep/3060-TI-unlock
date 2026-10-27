@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-28",
+  "gpu": "NVIDIA GeForce RTX 3060 Ti LHR 8 GiB",
+  "pci_id": "10de:2489",
+  "subsystem": "10de:153c",
+  "vbios": "94.04.6b.00.03",
+  "driver": "617.42",
+  "power_limit_w": 200,
+  "trials_per_state": 3,
+  "rows": [
+    {
+      "mode": "fp32_pedantic",
+      "name": "FP32 control",
+      "locked_tflops": 9.225893879591398,
+      "unlocked_tflops": 9.212200364623795,
+      "increase_percent": -0.14842480464569707
+    },
+    {
+      "mode": "fp16_fp32_accumulate",
+      "name": "FP16, FP32 accumulation",
+      "locked_tflops": 27.182692594045008,
+      "unlocked_tflops": 51.54178569204753,
+      "increase_percent": 89.61250992235752
+    },
+    {
+      "mode": "bf16_fp32_accumulate",
+      "name": "BF16, FP32 accumulation",
+      "locked_tflops": 27.053548850839217,
+      "unlocked_tflops": 51.25748572992459,
+      "increase_percent": 89.46677203990762
+    },
+    {
+      "mode": "tf32_fp32_accumulate",
+      "name": "TF32",
+      "locked_tflops": 13.668836906547103,
+      "unlocked_tflops": 26.37829825208303,
+      "increase_percent": 92.98129337872447
+    },
+    {
+      "mode": "fp16_accumulate_control",
+      "name": "Full-rate FP16 control",
+      "locked_tflops": 54.30772506299498,
+      "unlocked_tflops": 55.01431159511744,
+      "increase_percent": 1.3010792319192888
+    }
+  ],
+  "strictly_matched_display_layout": false,
+  "application_speedup_measured": false,
+  "long_term_stability_tested": false,
+  "scope": "Observed dense tensor benchmark differences on one machine, not a universal AI speedup"
+}

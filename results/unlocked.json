@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-28",
+  "state": "unlocked",
+  "state_directly_read_in_windows": false,
+  "summary": {
+    "fp32_pedantic": {
+      "trial_tflops": [
+        9.180811849621783,
+        9.280837198869433,
+        9.212200364623795
+      ],
+      "median_tflops": 9.212200364623795
+    },
+    "fp16_fp32_accumulate": {
+      "trial_tflops": [
+        51.54178569204753,
+        51.76920411741134,
+        51.43550082658627
+      ],
+      "median_tflops": 51.54178569204753
+    },
+    "bf16_fp32_accumulate": {
+      "trial_tflops": [
+        51.529302284934744,
+        51.18174416916106,
+        51.25748572992459
+      ],
+      "median_tflops": 51.25748572992459
+    },
+    "tf32_fp32_accumulate": {
+      "trial_tflops": [
+        26.37829825208303,
+        26.249346900172448,
+        26.676484912549476
+      ],
+      "median_tflops": 26.37829825208303
+    },
+    "fp16_accumulate_control": {
+      "trial_tflops": [
+        55.043923296052434,
+        54.147344561500965,
+        55.01431159511744
+      ],
+      "median_tflops": 55.01431159511744
+    }
+  },
+  "telemetry_medians_including_warmup_and_checks": {
+    "fp32_pedantic": {
+      "clocks.sm": 1545.0,
+      "clocks.mem": 7001.0,
+      "power.draw": 130.07,
+      "temperature.gpu": 48.0
+    },
+    "fp16_fp32_accumulate": {
+      "clocks.sm": 1545.0,
+      "clocks.mem": 7001.0,
+      "power.draw": 102.16,
+      "temperature.gpu": 47.0
+    },
+    "bf16_fp32_accumulate": {
+      "clocks.sm": 1545.0,
+      "clocks.mem": 7001.0,
+      "power.draw": 103.08,
+      "temperature.gpu": 47.0
+    },
+    "tf32_fp32_accumulate": {
+      "clocks.sm": 1545.0,
+      "clocks.mem": 7001.0,
+      "power.draw": 105.14500000000001,
+      "temperature.gpu": 48.0
+    },
+    "fp16_accumulate_control": {
+      "clocks.sm": 1545.0,
+      "clocks.mem": 7001.0,
+      "power.draw": 115.09,
+      "temperature.gpu": 49.0
+    }
+  },
+  "peak_sampled_temperature_c": 52.0,
+  "peak_sampled_power_w": 132.88,
+  "telemetry_samples": 99,
+  "display_layout": "one RTX monitor and one iGPU monitor"
+}

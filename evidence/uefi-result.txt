@@ -1,0 +1,7 @@
+RUN13: local v0.16 on 28 October 2026
+35 CHECK stages passed.
+transaction result=0 containment=0 started=1 quiesced=1 fault=0 retained=0 maps=0 FLR=1
+UNLOCK selectors: SS0=0x88888888 SS1=0x8 expected=0x88888888/0x8
+UNLOCK-TRIAL result=pass resets=1 dma_remaining=0 bus_master=0 windows_next=1
+Windows entry and performance are NOT confirmed by this firmware report.
+FINAL status=0 stage=windows-handoff-intent attempted=1 driver_release=1 clean=1

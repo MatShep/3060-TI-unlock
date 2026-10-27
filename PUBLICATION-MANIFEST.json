@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 54,
+      "sha256": "f938eb0fb33251a071fddb5ff361d171888e68502121318601de45b5b750d592"
+    },
+    {
+      "path": "AGENT-GUIDE.md",
+      "bytes": 4541,
+      "sha256": "ec4355786eb30d3e4000c9b5772e9e6bb2ed817d22ab4124a088065db9b4772c"
+    },
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3291,
+      "sha256": "142d5ea7e0fed6a21dc14338bec9d3985f0df296bfa5dcffb7daceabb0305bab"
+    },
+    {
+      "path": "evidence/uefi-result.txt",
+      "bytes": 454,
+      "sha256": "1960110a67f699dd6d7e07fb2697a467931b4ba7b02220d5b2768a15340edd06"
+    },
+    {
+      "path": "HUMAN-GUIDE.md",
+      "bytes": 3315,
+      "sha256": "6433bb4a324e36d6452db4e707e67aefef96c8067f323afb918616a67fe8b1e4"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1296,
+      "sha256": "3592748fa80103ea3a006f137091e0effbb3cffb05ee0c6dd0acf72066cc58c2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3412,
+      "sha256": "5485dd9fc029f826cdaba6a30bbb186faddf77d2b956e4bd0078aab126c12350"
+    },
+    {
+      "path": "results/comparison.json",
+      "bytes": 1603,
+      "sha256": "2e4fe3201e191fdd6febf5612565fd2b335431d4c466adaa19944767207fccfe"
+    },
+    {
+      "path": "results/locked-trial-1.json",
+      "bytes": 8883,
+      "sha256": "546bd940a93a36e60a0f7cbd3c9261191662286b791ddf03527eb5c4adb71eb4"
+    },
+    {
+      "path": "results/locked-trial-2.json",
+      "bytes": 8873,
+      "sha256": "7add75ae6bb847b7c96c06a0e198fa48c989eb6f787a126de7b9c335bc595940"
+    },
+    {
+      "path": "results/locked-trial-3.json",
+      "bytes": 8887,
+      "sha256": "c8acdd4a3a5496de28c70606ce1904627b3777430795d455767bed5868ea7831"
+    },
+    {
+      "path": "results/locked.json",
+      "bytes": 2101,
+      "sha256": "4c846fec8dd9dc581bf4cf9044803b1e3cc300792249e673b1501c0abfcf2e34"
+    },
+    {
+      "path": "results/provenance.json",
+      "bytes": 2286,
+      "sha256": "c739b71cec211caafc1f83496a36bf9476d2fdcd2bf3cddf30a65b5722371573"
+    },
+    {
+      "path": "results/unlocked-trial-1.json",
+      "bytes": 8894,
+      "sha256": "de3075703230ab302312b2730e7bcbfc72770a974d256ce9ed9dc9f256f9de22"
+    },
+    {
+      "path": "results/unlocked-trial-2.json",
+      "bytes": 8893,
+      "sha256": "27ef15835e56819a939f31609ed2eebb21d047c178941562cefacf119d4eea26"
+    },
+    {
+      "path": "results/unlocked-trial-3.json",
+      "bytes": 8912,
+      "sha256": "befb861666df6bbf156e10a147baae47f11b9b8afc085f70c0892766ce75a2a2"
+    },
+    {
+      "path": "results/unlocked.json",
+      "bytes": 2125,
+      "sha256": "d662866dd856e63728396ce4111d6245b964a208262193fefbff7f5dde3b2a56"
+    },
+    {
+      "path": "tools/benchmark.py",
+      "bytes": 12990,
+      "sha256": "5591c4055ef7e9271832f75cf9717a65d7e8503be8a256142171e76f58327cd3"
+    }
+  ],
+  "privacy_review": "Explicit subset only; no private device identifiers, local paths or binary firmware",
+  "publication_authorized_by_owner": true
+}

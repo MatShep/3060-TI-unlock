@@ -1,0 +1,41 @@
+{
+  "measured_runner_sha256": "d8f0242c34251581c9ce86a438386b12a639c37812e6a3f138d9118aaf8eceb3",
+  "published_runner_sha256": "5591c4055ef7e9271832f75cf9717a65d7e8503be8a256142171e76f58327cd3",
+  "published_source_change": "One generic metadata note only; AST comparison confirms no other code changes",
+  "protocol": {
+    "n": 4096,
+    "samples": 30,
+    "gemms_per_sample": 8,
+    "warmup_seconds": 2,
+    "modes": [
+      "fp32_pedantic",
+      "fp16_fp32_accumulate",
+      "bf16_fp32_accumulate",
+      "tf32_fp32_accumulate",
+      "fp16_accumulate_control"
+    ],
+    "torch": "2.11.0+cu128",
+    "cuda_build": "12.8",
+    "torch_git": "70d99e998b4955e0049d13a98d77ae1b14db1f45",
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "numpy": "2.5.2",
+    "python_executable_sha256": "0b471133e110cfb53a061cad528ce8e517d7b9ac41a0a396c39ad795a487fc14"
+  },
+  "loaded_library_sha256": {
+    "cublas64_12.dll": "9513540e4ec4c51ee9e7304138c2cc255c29a8c181f9e80c38efa25738becd99",
+    "cublaslt64_12.dll": "b199d1ff892a81b7fd3d57ba1781549609b41500b36008fef326038393ad46c7",
+    "cudart64_12.dll": "c2c9a9c22a9bcba90e261825968836787b331038047a26770cffb7a583c28344",
+    "torch_cuda.dll": "d5ca93bdf3e246af9c962ec92554e5576dec03b665f9cbf1c664e653f76ddb50",
+    "nvcuda64.dll": "feabc8113ed589bba51f63f98f144361dd388210c825a88f3268154819d8a5e1",
+    "nvcuda.dll": "794f612c51aeeef7f24bc715c5b923bae97887f27ac3e2df8aa9010fe253c526"
+  },
+  "locked_private_completion_record_sha256": "1c2d17aff044a9846e1991ac6f4202fe0d9bfb3ebed9a43fce8e0e63f90a31fe",
+  "unlocked_private_completion_record_sha256": "e7e8918d74cc86737bd2eff9c522166b0392aef4c1a8247179c9523db4196e8c",
+  "original_uefi_report_sha256": "1a24dcebceecbc629ad41dbe88b7e94f067dcfef3c9a346e8ee70797cdf18097",
+  "uefi_sha256": "1634b81c08d73a7f5ccd8d66577437c57f0fc644e3b492f23e8f1f13549be8ad",
+  "uefi_version": "v0.16 local experimental build",
+  "uefi_check_stages_passed": 35,
+  "uefi_base_commit": "5479d5772b3c5d56c1321b07925bb1d41008a69d",
+  "upstream_reference_commit": "af28cbbfd3d922a659227ecfb7369adfd924cf03",
+  "hash_scope": "SHA256 integrity records, not signed hardware attestation; private source logs are not uploaded"
+}
