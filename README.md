@@ -62,6 +62,6 @@ Windows bootloader or vendor firmware is distributed here.
 - [Other Windows port](https://github.com/impacifist/Windows-GPU-UNLOCK)
 - [Earlier 3060 Ti Linux result](https://github.com/Zagitta/gpu-unlock/issues/177)
 
-This is a Windows case report, not a claim to the first-ever 3060 Ti unlock.
+This is a Windows case report.
 Original repository material is [MIT-licensed](LICENSE); referenced projects
 and vendor files retain their own licenses. Long-term stability is untested.
